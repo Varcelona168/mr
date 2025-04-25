@@ -1,0 +1,47 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+ 
+}
+button{
+    padding: 5px 12px;
+    transition: 0.4s;
+}
+button:active{
+    transform: scale(0.9);
+
+}
+
+.enter{
+    padding: 5px 12px;
+
+}
+.box{
+    background-color: beige;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+gap: 30px;
+align-items: center;
+font-size: 28px;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+body{
+    flex-direction: column;
+}
+input {
+    padding: 20 30;
+}
+button:hover{
+    background-color:green ;
+    color: white;
+}
+.p:hover{
+    background-color: red;
+    color: white;
+}
